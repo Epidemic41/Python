@@ -4,6 +4,9 @@ Created on Tue Nov 22 10:53:23 2022
 
 @author: Dax Martineau, David Lee
 """
+#dataset source
+#https://files.grouplens.org/datasets/movielens/ml-latest-small.zip
+
 import pandas as pd
 
 df = pd.read_csv('movies.csv', index_col='title') #import movieID title and genre dataset
